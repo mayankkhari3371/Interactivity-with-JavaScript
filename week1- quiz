@@ -1,0 +1,84 @@
+1. Every valid web page can be represented as a tree. This tree is referred to as the
+ans. DOM
+
+2. JavaScript uses what kind of interface to access the DOM structure?
+ans. an API
+
+3. Which of these is not valid? (Hint, pay attention to if the method should return one thing, or many things...)
+ans. document.getElementByIdName(idName) 
+
+4. Which of the following is not a valid method for generating output to the screen?
+ans. print
+
+5. Which of these options does NOT require the use of parentheses?
+ans. innerHTML
+
+6. Which of the following does not generate output directly to the screen?
+ans. console.log(message);
+
+7. How does prompt differ from alert?
+ans. the prompt will return a value, alert does not
+
+8. Variables allow you to save data.
+ans. true
+
+9. In JavaScript the keyword ___________ is used to declare a variable.
+ans. var
+
+10. What does it mean that variables are case-sensitive?
+ans. that the computer does not think that the variable name and NAME are the same thing
+
+11. Which of the following is not a valid variable name?
+ans. 1variable
+
+12. Which of the following is not a valid variable name?
+ans.variable-2
+
+13. What does mnemonic mean?
+ans. that variable names should describe the value being stored 
+
+14. What is wrong with this code?
+
+		var name = "Mike";
+		"Colleen" = name;
+ans. the code is illegal and it does'nt make sense to have a non variable (also called a constant) in the left-hand side (LHS) of an assignment statement 
+
+15. What value is stored in name if the person hits the Cancel button on a prompt?
+
+		var name = prompt("What is your name?");
+ans. null
+
+16. What value is stored in name if the person hits the Okay button on a prompt before entering anything?
+
+		var name = prompt("What is your name?");
+ans. an empty string("")
+
+17. To create a String variable, use quotes around the value you want to save.
+ans.true
+
+18. Boolean variables store either true or false.
+ans.true
+
+19. When a function returns a node from the DOM, it is of type
+ans. object
+
+20. A function that wants to return multiple values at once (such as document.getElementsByTagName) will return a/an
+ans. array
+
+21. Which of the following is not a valid operator?
+ans.=+
+
+22. What value is returned by 9 % 5?
+ans.4
+
+23. What is the difference between == and === ?
+ans. the == operator only checks for equivalent values, not equivalent type too
+
+24. What is the logical operator for OR?
+ans. ||
+
+25. Which tag is used to let the browser know that it is about to see JavaScript code?
+ans. <script>
+
+26. JavaScript code must be placed in the <head> section of the document.
+ans. false
