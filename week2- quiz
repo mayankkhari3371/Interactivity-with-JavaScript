@@ -1,0 +1,33 @@
+1. Which is the correct syntax to change the contents of the HTML element below?
+
+	<p id = "quiz">This is a quiz. </p>
+ans. document.getElementById('quiz').innerHTML="New content!!";
+
+2. Where can you put JavaScript?
+ans.in a, b and c
+
+3. Which attribute is used to link to an external JavaScript file?
+ans. src
+
+4. Which word is used to define a function in JavaScript?
+ans. function
+
+5. Which of the following best defines relation between defining a function and calling a function?
+ans. you can define a function without calling it  
+
+6. Consider the following code:
+
+	<body onload = "Hello()">
+  	<p> This is paragraph one </p>
+  	<p onclick = "Hello()"> This is paragraph two </p>
+
+  The function Hello() will be called every time:
+ans. a nad c
+
+7. What is wrong with this function definition?
+
+	function Hello();{
+   	alert("Hello");
+   	document.write("Hello on the screen");
+	}
+ans. the semicolon after hello()
