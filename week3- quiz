@@ -1,0 +1,81 @@
+1. Which is the correct syntax to change the contents of the HTML element below?
+
+		<p id = "quiz">This is a quiz. </p>
+ans. document.getElementById('quiz').innerHTML="New content!";
+
+
+2. Where can you put JavaScript?
+ans. in the head and body section 
+
+
+3. Built-in JavaScript functions (alert, prompt, etc) cannot be mixed in with other HTML code unless you use the <script> tag.
+ans. false
+
+
+4. Which of the following is the proper way to link to an external JavaScript file?
+ans. <script src="file.js"></script>
+
+
+5. Which keyword is used to define a function in JavaScript?
+ans. function
+
+
+6. If a function is defined twice, the first declaration will be called when used.
+ans. false
+
+
+7. A function can be called multiple times in a single file.
+ans.true
+
+
+8. You can define a function without calling it.
+ans. true 
+
+
+9. You can call a function without it being defined.
+ans. false
+
+
+10. Conditional statements change the flow of execution in a program — the “next” line of code in the program is not always the next one that is executed.
+ans. true
+
+
+11. What is true about this code?
+
+	<a href = "http://www.umich.edu" onclick = "return true">University of Michigan</a><br/>
+
+	<a href = "#" onclick = "alert(this.href)">University of Michigan </a><br/>	
+
+	<a href = "page2.html" onclick = "alert(this.href)">University of Michigan </a><br/>
+
+ans. only the first link will take you to the university of michigan website 
+
+12. What is true about this code?
+
+	<a href = "http://www.umich.edu" onclick = "alert(this.href)">University of Michigan</a><br/>
+
+	<a href = "#" onclick = "alert(this.href)">University of Michigan </a><br/>	
+
+	<a href = "page2.html" onclick = "alert(this.href)">University of Michigan </a><br/>
+
+ans. only the second link will produce the alert 
+
+13. Assume you have a page with four paragraph tags, one of which has the id "second". What is the proper JavaScript code to change the content of that paragraph to "What does the Fox say?"
+
+Note:
+
+The quotes shouldn't be part of the value.
+
+Please end the line of code with a semicolon.
+
+Note, you can't assume that this is the second paragraph.
+
+ans. document.getElementById("second").innerHTML="What does the Fox say?";
+
+
+14. Assume you have a page with four paragraph tags. What is the proper JavaScript code to change the content of the second paragraph to "What does the Fox say?"
+ans. document.getElementById('p')[2].innerHTML="What does the Fox say?";
+
+
+15. How do you properly access the third element in an array variable named "fruit”?
+ans. none of the above 
